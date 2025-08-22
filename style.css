@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: rgb(79, 56, 56);
+    font-family: 'Georgia', serif;
+}
+.nav {
+    display: flex;
+    background-color: rgb(185, 215, 160);
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 40px;
+    border-radius: 8px 8px 8px 8px;
+    
+}
+.nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+}
+.nav ul li a {
+      text-decoration: none;
+      color: #111;
+      font-size: 20px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+    .nav ul li a:hover {
+      color: #444;
+      
+    }
+    .jff{
+        margin-top: 10px;
+        font-size: 35px;
+    }
