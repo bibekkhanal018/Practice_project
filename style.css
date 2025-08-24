@@ -27,9 +27,18 @@ body{
     }
     .nav ul li a:hover {
       color: #444;
+      text-decoration: underline;
       
     }
     .jff{
         margin-top: 10px;
         font-size: 35px;
+    }
+    .sub1 img{
+      height: 100px;
+      display: flex;
+      float: right;
+    }
+    .sub1 .SLOGAN {
+      font-size: 10px;
     }
