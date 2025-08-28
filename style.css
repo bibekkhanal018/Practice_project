@@ -1,69 +1,95 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  }
 
 body{
     background-color: rgb(79, 56, 56);
     font-family: 'Georgia', serif;
 }
-.nav {
+
+.navbar {
     display: flex;
     background-color: rgb(185, 215, 160);
     justify-content: space-between;
     align-content: center;
     padding: 15px 40px;
     border-radius: 8px 8px 8px 8px;
-    
-}
-.nav ul {
+    margin: 1%;
+   width: auto;
+   }
+
+.navbar ul {
       list-style: none;
       display: flex;
       gap: 30px;
 }
-.nav ul li a {
+.navbar ul li a {
       text-decoration: none;
       color: #111;
       font-size: 20px;
       font-weight: 500;
       transition: color 0.3s ease;
+      padding-top: 10%;
     }
-    .nav ul li a:hover {
+    .navbar ul li a:hover {
       color: #444;
       text-decoration: underline;
       
     }
-    .jff{
-        margin-top: 10px;
+    .logo{
+        margin-top: 1px;
         font-size: 35px;
     }
-    .sub{
-      display:flex;
-      gap: 6px;
+   span{
+    font-style: italic;
+    font-weight: lighter; 
+   }
+  .container {
+    margin: 10px;
+    gap: 10px;
     
-    }
-    .sub1 {
-      height: 500px;
-      background-color: aliceblue;
-      margin-top: 10px;
-      border-radius: 8px 8px 8px 8px;
-      width: 90%;
-      display: flex;
-        }
-      .sub2{
-        height: 500px;
-        width: 200px;
-        border-radius: 8px 8px 8px 8px;
-        display: flex;
-        background-color: aliceblue;
-        margin-top: 10px;
-        width: 100%;
-      
-        
-      }
-      .sub3{
-        margin-top:10px;
-        width: 100px;
-        background-color: aliceblue;
-        border-radius : 8px 8px 8px 8px;
-      
-      }
+  }
+  .container{
+    display: grid;
+    height: 85vh;
+    grid-template-columns: repeat(7,1fr);
+    grid-row: repeat(7,1fr);
+    grid-template-areas: 
+  "slogan       slogan      slogan      photo     photo     music     music"
+  "slogan       slogan      slogan      photo     photo     music     music"
+  "slogan       slogan      slogan      photo     photo     music     music"
+  "slogan       slogan      slogan      photo     photo     music     music"
+  "details      details     contact     contact   contact   music     music"
+  "details      details     contact     contact   contact   music     music"
+  "details      details     contact     contact   contact   social    social";
+}
 
-    
+  }
+  .container1{
+    background-color: #ca9393;
+    grid-area: slogan;
+  }
+  .container2{
+    background-color: aliceblue;
+    grid-area: photo;
+  }
+  .container3{
+    background-color: blue;
+    grid-area: music;
+  }
+  .container4{
+    background-color: rgb(38, 156, 103);
+    grid-area: details;
+  }
+  .container5{
+    background-color: rgb(56, 231, 118);grid-area: slogan;
+    grid-area: contact;
+  
+  }
+  .container5{
+    background-color: rgb(56, 231, 118);grid-area: slogan;
+    grid-area: social;
+  
+  }
