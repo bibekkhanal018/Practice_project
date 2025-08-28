@@ -70,6 +70,7 @@ body{
   .container1{
     background-color: #ca9393;
     grid-area: slogan;
+    position: relative;
   }
   .container2{
     background-color: aliceblue;
@@ -93,3 +94,59 @@ body{
     grid-area: social;
   
   }
+  .container1 .image1{
+    height: 200px;
+    width: 200px;
+    right: 0;
+    display: flex;
+    float: inline-end;
+    
+  }
+   .container .container1 .mainslogon{
+   font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 32px;
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  margin: 0 90px 50px 5px;
+    }
+    .container1 .it {
+      font-style: italic;
+      font-weight: bold;
+      color: rgb(2, 139, 114);
+    }
+    .container2{
+      background-image: url(images/bib.png);
+      background-size: cover;
+      background-position: center top;
+    }
+    .container3 .playlist {
+      font-weight: bold;
+      font-size: 20px;
+      position: absolute;
+       margin: 20px 0 0 20px;
+
+    }
+    .container3 .image2 {
+    display: flex;
+    right: 0;
+    height: 5%;
+    position: absolute;
+     margin: 23px 20px 0 0;
+    }
+.container3 .image3{
+  
+  margin-top: 100px;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
+  width: 90%;
+  display: block;
+}
+hr {
+  margin-top: 10px;
+}
