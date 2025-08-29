@@ -71,7 +71,7 @@ body{
   "slogan       slogan      slogan      photo     photo     music     music"
   "slogan       slogan      slogan      photo     photo     music     music"
   "details      details     contact     contact   contact   music     music"
-  "details      details     contact     contact   contact   music     music"
+  "details      details     contact     contact   contact   social    social"
   "details      details     contact     contact   contact   social    social";
 }
 
@@ -132,6 +132,9 @@ body{
       background-size: cover;
       background-position: center top;
     }
+    .container3{
+      position: relative;
+    }
     .container3 .playlist {
       font-weight: bold;
       font-size: 20px;
@@ -142,7 +145,7 @@ body{
     .container3 .image2 {
     display: flex;
     right: 0;
-    height: 5%;
+    height: 50px;
     position: absolute;
      margin: 23px 20px 0 0;
     }
@@ -155,7 +158,52 @@ body{
   align-self: center;
   width: 90%;
   display: block;
+  margin-bottom: 10px;
 }
-hr {
-  margin-top: 10px;
+.line {
+  margin-left: auto;
+  /*margin-top: 20px;*/
+  margin-right: auto;
+  background-color: black;
+  height: 10px;
+  display: block;
+  border-style: none;
+  border-radius: 20px;
+  width: 90%;
+ 
 }
+.container4{
+  position: relative;
+}
+.container4 img{
+  height: 9vh;
+  
+}
+.container4 .info{
+position: absolute;
+bottom: 0;
+margin: 0 50px 30px 20px;
+}
+.container5{
+  position: relative;
+}
+.container5 .ques{
+  padding: 10px;
+}
+.container5 .contact{
+  position: absolute;
+  bottom: 0;
+  margin: 0 50px 30px 20px; 
+ }
+ .container5 img {
+    display: flex;
+    right: 0;
+    height: 50px;
+    position: absolute;
+     margin: 23px 20px 0 0;
+ }
+ .container6 a{
+  text-decoration: none;
+  margin: 10px 50px 30px 20px;
+  align-self: center;
+ }
