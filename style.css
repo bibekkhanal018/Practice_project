@@ -14,6 +14,7 @@
 body{
     background-color:var(--acolor);
     font-family: 'Georgia', serif;
+    height: 100vh;
 }
 
 .navbar {
@@ -24,9 +25,11 @@ body{
     padding: 15px 40px;
     border-radius: 8px 8px 8px 8px;
     width: auto;
+    height: 4vh;
     margin-top: 5px;
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 5px
+
    }
 
 .navbar ul {
@@ -62,7 +65,7 @@ body{
   }
   .container{
     display: grid;
-    height: 90vh;
+    height: 91vh;
     grid-template-columns: repeat(7,1fr);
     grid-row: repeat(7,1fr);
     grid-template-areas: 
@@ -160,17 +163,18 @@ body{
   display: block;
   margin-bottom: 10px;
 }
-.line {
+.container3 .lines {
   margin-left: auto;
-  /*margin-top: 20px;*/
   margin-right: auto;
-  background-color: black;
-  height: 10px;
-  display: block;
+  padding-top: 20vh;
   border-style: none;
   border-radius: 20px;
-  width: 90%;
+  width: 90%
  
+}
+.line{
+  background-color: black;
+
 }
 .container4{
   position: relative;
