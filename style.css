@@ -25,7 +25,7 @@ body{
     padding: 15px 40px;
     border-radius: 8px 8px 8px 8px;
     width: auto;
-    height: 4vh;
+    height: 5vh;
     margin-top: 5px;
     margin-left: 5px;
     margin-right: 5px
@@ -48,6 +48,7 @@ body{
     .navbar ul li a:hover {
       color: var(--dcolor);
       text-decoration: underline;
+      font-family: 'Cursive', Courier, monospace;
       
     }
     .logo{
@@ -65,7 +66,8 @@ body{
   }
   .container{
     display: grid;
-    height: 91vh;
+    height: 92vh;
+    overflow: hidden;
     grid-template-columns: repeat(7,1fr);
     grid-row: repeat(7,1fr);
     grid-template-areas: 
@@ -128,7 +130,7 @@ body{
     .container1 .it {
       font-style: italic;
       font-weight: bold;
-      color: rgb(2, 139, 114);
+      color: rgb(245, 245, 245);
     }
     .container2{
       background-image: url(images/bib.png);
@@ -142,7 +144,7 @@ body{
       font-weight: bold;
       font-size: 20px;
       position: absolute;
-       margin: 20px 0 0 20px;
+      margin: 20px 0 0 20px;
 
     }
     .container3 .image2 {
@@ -166,16 +168,31 @@ body{
 .container3 .lines {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 20vh;
+  /* padding-top: 20vh; */
   border-style: none;
   border-radius: 20px;
-  width: 90%
- 
+  width: 90%;
+  height: 43%;
+  display: flex;
+  flex-direction: column;
+  /* background-color: #fff; */
+  justify-content: space-between;
+  /* align-items: center; */
+  align-content: space-around;
 }
-.line{
-  background-color: black;
+.container3 a{
+  text-decoration: none;
+  color: #111;
+  margin: 20px 0 25px 90px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container3 hr{
+  background-color:#111;
+  border: none;
+  height: 3px;
+}
 
-}
 .container4{
   position: relative;
 }
@@ -186,7 +203,7 @@ body{
 .container4 .info{
 position: absolute;
 bottom: 0;
-margin: 0 50px 30px 20px;
+margin: 0 50px 10px 20px;
 }
 .container5{
   position: relative;
@@ -205,7 +222,7 @@ margin: 0 50px 30px 20px;
     top: 0;
     height: 50px;
     position: absolute;
-     margin: 23px 20px 0 0;
+     margin: 2px 20px 0 0;
  }
  .container6{
   display: flex;
@@ -216,4 +233,5 @@ margin: 0 50px 30px 20px;
  }
  .container6 a{
   text-decoration: none;
+  font-size: 20px;
  }
