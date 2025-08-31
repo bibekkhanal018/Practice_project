@@ -74,7 +74,7 @@ body{
   "slogan       slogan      slogan      photo     photo     music     music"
   "slogan       slogan      slogan      photo     photo     music     music"
   "slogan       slogan      slogan      photo     photo     music     music"
-  "slogan       slogan      slogan      photo     photo     music     music"
+  "details      details     contact     contact   contact   music     music"
   "details      details     contact     contact   contact   music     music"
   "details      details     contact     contact   contact   social    social"
   "details      details     contact     contact   contact   social    social";
@@ -85,7 +85,8 @@ body{
     background-color: var(--ccolor);
     grid-area: slogan;
     position: relative;
-  }
+    overflow: hidden;
+    }
   .container2{
     background-color: var(--bcolor);
     grid-area: photo;
@@ -109,8 +110,8 @@ body{
   
   }
   .container1 .image1{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     right: 0;
     display: flex;
     float: inline-end;
@@ -183,9 +184,11 @@ body{
 .container3 a{
   text-decoration: none;
   color: #111;
-  margin: 20px 0 25px 90px;
+  margin: 20px 0 2px 5px;
   font-size: 20px;
   font-weight: bold;
+  align-items: center;
+  justify-content: center;
 }
 .container3 hr{
   background-color:#111;
@@ -197,13 +200,14 @@ body{
   position: relative;
 }
 .container4 img{
-  height: 9vh;
+  height: 10vh;
   
 }
 .container4 .info{
 position: absolute;
 bottom: 0;
 margin: 0 50px 10px 20px;
+font-size: 1.05rem;
 }
 .container5{
   position: relative;
